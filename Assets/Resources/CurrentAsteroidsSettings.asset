@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7dd971cc6b32744b180dc0f9da9e8c, type: 3}
+  m_Name: CurrentAsteroidsSettings
+  m_EditorClassIdentifier: 
+  health: 19
+  _minAsteroidForce: 64.6
+  _maxAsteroidForce: -2.64
+  _minAsteroidSize: 2.53
+  _maxAsteroidSize: 2.62
+  _minAsteroidTorque: 1.44
+  _maxAsteroidTorque: 2.59
+  _minAsteroidSpawnTime: 1.7
+  _maxAsteroidSpawnTime: 2.05
+  _minAsteroidSpawnAmount: 72
+  _maxAsteroidSpawnAmount: 89

@@ -1,0 +1,15 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <ui:VisualElement style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); align-items: stretch; justify-content: space-around; width: auto; -unity-font-style: bold; font-size: 19px; -unity-text-align: middle-left;">
+        <ui:SliderInt picking-mode="Ignore" label="Health" value="42" high-value="100" name="health" binding-path="health" focusable="true" show-input-field="true" />
+        <ui:FloatField label="Min Asteroid Force" value="42,2" name="minAsteroidForce" binding-path="_minAsteroidForce" />
+        <ui:FloatField label="Max Asteroid Force" value="4" name="maxAsteroidForce" binding-path="_maxAsteroidForce" />
+        <ui:FloatField label="Min Asteroid Size" value="42,2" name="minAsteroidSize" binding-path="_minAsteroidSize" />
+        <ui:FloatField label="Max Asteroid Size" value="42,2" name="maxAsteroidSize" binding-path="_maxAsteroidSize" is-delayed="false" />
+        <ui:FloatField label="Min Asteroid Torque" value="42,2" name="minAsteroidTorque" binding-path="_minAsteroidTorque" />
+        <ui:FloatField label="Max Asteroid Torque" value="42,2" name="maxAsteroidTorque" binding-path="_maxAsteroidTorque" />
+        <ui:FloatField label="Min Asteroid Spawn Time" value="42,2" name="minAsteroidSpawnTime" binding-path="_minAsteroidSpawnTime" />
+        <ui:FloatField label="Max Asteroid Spawntime" value="42,2" name="maxAsteroidSpawnTime" binding-path="_maxAsteroidSpawnTime" />
+        <ui:IntegerField label="Min Asteroid Spawn Amount" value="42" name="minAsteroidSpawnAmount" is-delayed="false" readonly="false" binding-path="_minAsteroidSpawnAmount" />
+        <ui:IntegerField label="Max Asteroid Spawn Amount" value="42" name="maxAsteroidSpawnAmount" binding-path="_maxAsteroidSpawnAmount" />
+    </ui:VisualElement>
+</ui:UXML>

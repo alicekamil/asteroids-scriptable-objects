@@ -39,5 +39,10 @@ namespace Variables
                 _intVariable.ApplyChange(change);
             }
         }
+        public void SetValue(int health)
+        {
+            _simpleValue = health;
+            _intVariable.SetValue(health);
+        }
     }
 }
