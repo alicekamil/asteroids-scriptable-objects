@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f7dd971cc6b32744b180dc0f9da9e8c, type: 3}
   m_Name: CurrentAsteroidsSettings
   m_EditorClassIdentifier: 
-  health: 61
+  health: 100
   _minAsteroidForce: 64.6
   _maxAsteroidForce: -2.64
   _minAsteroidSize: 2.53
