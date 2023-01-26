@@ -12,14 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f7dd971cc6b32744b180dc0f9da9e8c, type: 3}
   m_Name: CurrentAsteroidsSettings
   m_EditorClassIdentifier: 
-  health: 53
-  _minAsteroidForce: 64.6
-  _maxAsteroidForce: -2.64
-  _minAsteroidSize: 2.53
-  _maxAsteroidSize: 2.62
-  _minAsteroidTorque: 1.44
-  _maxAsteroidTorque: 2.59
-  _minAsteroidSpawnTime: 1.7
-  _maxAsteroidSpawnTime: 2.05
-  _minAsteroidSpawnAmount: 72
-  _maxAsteroidSpawnAmount: 89
+  health: 100
+  _minAsteroidForce: 5
+  _maxAsteroidForce: 6
+  _minAsteroidSize: 2
+  _maxAsteroidSize: 1
+  _minAsteroidTorque: 2
+  _maxAsteroidTorque: 1
+  _minAsteroidSpawnTime: 1
+  _maxAsteroidSpawnTime: 2
+  _minAsteroidSpawnAmount: 50
+  _maxAsteroidSpawnAmount: 50
